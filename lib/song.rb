@@ -6,6 +6,7 @@ class Song
     song = Song.create
     Song.all.include?(song)
   end
+end
   
   def create
 
