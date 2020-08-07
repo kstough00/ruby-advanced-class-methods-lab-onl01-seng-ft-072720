@@ -3,7 +3,8 @@ class Song
   @@all = []
   
   def create
-     attr_accessor :name
+     song = Song.create
+Song.all.include?(song)
   end
   
   def create
