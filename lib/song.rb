@@ -3,8 +3,8 @@ class Song
   @@all = []
   
   def create
-     song = Song.create
-Song.all.include?(song)
+    song = Song.create
+    Song.all.include?(song)
   end
   
   def create
