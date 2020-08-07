@@ -3,7 +3,7 @@ class Song
   @@all = []
   
   def create
-    
+     attr_accessor :name
   end
   
   def create
